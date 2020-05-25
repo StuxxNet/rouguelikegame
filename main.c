@@ -31,7 +31,6 @@ int main(){
 
 int screenSetup(){
     initscr();
-    printw("Hello world!");
     noecho();
     refresh();
     return 0;
